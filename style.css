@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+      
+    
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'EngineerHandRegular';
+
+}
+a {
+    text-decoration: none;
+    color:lightgoldenrodyellow;
+    text-shadow: 1px 1px #111;
+    
+}
+img {
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content:center;
+    height: 90rem; 
+    font-size: 7rem;
+}
+.gauche {
+    background:url(https://images.unsplash.com/photo-1607707972895-7f994d8c2f3b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80) center/cover;
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.droite {
+    display: flex; 
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+.n1 {
+    background:url(https://images.unsplash.com/photo-1519849968456-c4918b53e694?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80) center/cover;
+    width: 50%;
+    height:  50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n2 {
+    background:url(https://images.unsplash.com/photo-1465634836201-1d5651b9b6d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80) center/cover;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n3 {
+    background:url(https://images.unsplash.com/photo-1543029505-07794a585851?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fGdyZWVufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) center/cover;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n4 { 
+    background: url(https://images.unsplash.com/photo-1597423243887-0a1fb9f13d70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80)center;
+    
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:900px)
+{
+    .container 
+    {   font-size: 4rem;
+        display: block;
+    }
+    .gauche {
+        width: 100%;
+        height: 50%;
+    }
+    .droite {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+    
+   

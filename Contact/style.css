@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #111;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #111;
+
+}
+header {
+    text-align: center;
+    padding: 3rem;
+}
+.message {
+    max-width: 40rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+li {
+    color: #111;
+    font-size: 5rem;
+    margin: 4px;
+}
